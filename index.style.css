@@ -5,7 +5,84 @@ header {
     padding: 10px;
 }
 
+body {
+    margin: 0;
+    height: 100vh;
+}
+
 header h1 {
     color: red;
     margin: 10px;
 }
+
+.background__container {
+    background-color: black;
+}
+
+.background__container > h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.card__container {
+    margin-bottom: 100px;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transform: ;
+    transition: 0.3s;
+}
+
+.card > h1 {
+    font-size: 18px;
+}
+
+.card > h2 {
+    font-size: 16px;
+}
+
+.card > p {
+    font-size: 12px;
+}
+
+.card__flex--row {
+    display: flex;
+    flex-direction: row;
+}
+
+.card__flex--row:first-child {
+    margin-top: 40px;
+}
+
+.card__flex--row:last-child {
+    margin-bottom: 100px;
+}
+
+.card__flex--column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Display
+
+block
+inline-block
+grid
+flexbox
+
+*/
